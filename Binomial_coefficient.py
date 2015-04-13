@@ -1,4 +1,4 @@
-for _ in range(input()):
+for _ in xrange(input()): #using xrange as generator instead of range works with more efficiency
         n, P = [int(x) for x in raw_input().split()]
         m = n
         k = 1
